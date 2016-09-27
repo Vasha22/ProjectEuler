@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Javascript basics</title>
+		<meta charset="UTF-8">	
+		<link href="css/style.css" rel="stylesheet"/>
+		<script src="js/main.js"></script>
+	</head>
+
+	<body>
+		<header>
+			<img src="img/odin_logo.png" alt="Odin Project Logo">
+			<p>JAVASCRIPT BASICS - FIRST PROJECT</p>
+		</header>
+
+		<center>
+			<h1>Welcome to the first problem of Project Euler</h1>
+			<p>If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.</p>
+			<p>This function will count the sum of all multiples of 3 or 5 below the given limit.</p>
+			
+			<div class="input">
+				<h2>Enter the limit:</h2>
+				<input type="text" id="limit" value="1000">
+				<br>
+				<button id="button" onclick="multiply(document.getElementById('limit').value)">Get the result</button>
+			</div>
+
+			<div class="result">
+				<h2>The result is:</h2>
+				<br>
+				<h3 id="result"></h3>
+			</div>
+
+		</center>
+
+		<footer>
+			<p>Made by <a href="https://github.com/Vasha22">Václav Škvařil</a></p>
+		</footer>
+	</body>
+</html>
